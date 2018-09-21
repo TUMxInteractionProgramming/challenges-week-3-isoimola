@@ -30,6 +30,7 @@ h1 {
 
 
 
+
 /* CHANNELS LIST */
 /* #4 #sweat #channels */
 ul {
@@ -178,6 +179,10 @@ li {
 }
 
 #star {
+    position: absolute;
+    display: inline;
+    margin: 16px;
+    float: right;
 }
 
 #chat-bar {
@@ -187,6 +192,7 @@ li {
     font-size: 13px;
     width: 100%;
     height: 72px;
+position: relative;
 }
 
     #chat-bar button {
@@ -213,6 +219,7 @@ scrolling enabled when there are too many emojis*/
 
 
 #emojis {
+    display:none;
     position: absolute;
     font-size: 28px;
     overflow: auto;
